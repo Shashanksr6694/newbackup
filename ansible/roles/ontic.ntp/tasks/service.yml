@@ -1,0 +1,11 @@
+# Copyright (c) Ontic. (http://www.ontic.com.au). All rights reserved.
+# See the COPYING file bundled with this package for license details.
+
+---
+
+- name: 'NTP | Enable NTP service.'
+  become: yes
+  service:
+    name: '{{ ntp_service_name }}'
+    state: '{{ ntp_service_state }}'
+    enabled: '{{ ntp_service_enabled }}'

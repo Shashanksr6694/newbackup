@@ -1,0 +1,9 @@
+Interface: virbr0, datalink type: EN10MB (Ethernet)
+Starting arp-scan 1.9.2 with 256 hosts (http://www.nta-monitor.com/tools-resources/security-tools/arp-scan/)
+192.168.122.96	52:54:00:be:e2:a9	QEMU
+192.168.122.99	52:54:00:c0:2e:8f	QEMU
+192.168.122.116	52:54:00:e6:98:ff	QEMU
+192.168.122.235	52:54:00:f3:fe:3d	QEMU
+
+4 packets received by filter, 0 packets dropped by kernel
+Ending arp-scan 1.9.2: 256 hosts scanned in 2.354 seconds (108.75 hosts/sec). 4 responded

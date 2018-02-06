@@ -1,0 +1,25 @@
+192.168.122.39 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", 
+    "unreachable": true
+}
+192.168.122.144 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", 
+    "unreachable": true
+}
+192.168.122.99 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", 
+    "unreachable": true
+}
+192.168.122.20 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", 
+    "unreachable": true
+}
+192.168.122.1 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", 
+    "unreachable": true
+}

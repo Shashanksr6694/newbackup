@@ -1,0 +1,65 @@
+*{
+margin:0;
+
+}
+
+h1{color:red;
+   text-align:center;
+}
+
+#b1{
+background-image:url(../images/awscloud.jpg);
+background-position:center;
+background-size:cover;
+height:150px;
+}
+
+#b2{
+background-color:lightgrey;
+background-size:cover;
+height:480px;
+}
+
+#menu{	width:100%;
+	display: block;
+	margin-top:10px;
+	height:45px;
+	}
+
+.button	{
+	padding:10px 22px;
+	margin-top:0px;
+	color:white;
+	text-align:center;
+	font-size:20px;
+	font-weight:800;
+	background-color:rgba(0, 0, 0, 0);
+   	border: 2px solid white;
+	}
+
+.button:hover 	{
+		background-color:black;
+		font-weight:700;	
+	}
+
+#container { 
+
+padding-top:100px;   
+padding-left:420px; 
+position:fixed;
+}
+
+#container .txtinput { 
+display: block;
+font-family: "Helvetica Neue", Arial, sans-serif;
+border-style: solid;
+border-width: 2px;
+border-color: orange;
+text-align:left;
+margin-bottom: 20px;
+font-size: 2em;
+padding: 6px 10px;
+padding-left:10px;
+width:400px;
+color: #777;
+}

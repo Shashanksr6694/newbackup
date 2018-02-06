@@ -1,0 +1,32 @@
+---
+- hosts: all
+  remote_user: ec2-user
+  sudo: yes
+  vars:
+  tasks:
+  - name: installing apache http server
+    yum:
+      name: httpd
+      state: latest
+
+  - name: starting apache web server service 
+    service:
+      name: httpd
+      state: started 
+      enabled: yes
+
+  - name: copying application files
+    copy:
+      src: /var/www/ansible.tar
+      dest: /var/www/html/
+    
+  - unarchive:
+      src: /var/www/html/ansible.tar
+      dest: /var/www/html/
+      remote_src: True
+
+  - name: starting apache web server service 
+    service:
+      name: httpd
+      state: restarted 
+      enabled: yes

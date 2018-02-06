@@ -1,0 +1,12 @@
+{
+    "company_name": "Red Hat", 
+    "contact_email": "shasriva@redhat.com", 
+    "contact_name": "Shashank Srivastava", 
+    "hostname": "8fb947d186824dc1a2512c88dd6820d3", 
+    "instance_count": 50, 
+    "license_date": 1537445193, 
+    "license_key": "f829ffa6823c0dc2873bfa3983ecb76600bb427b276b6605d7d501aea55c59e8", 
+    "license_type": "enterprise", 
+    "subscription_name": "Ansible Tower by Red Hat (50 Managed Nodes), RHT Internal", 
+    "trial": true
+}

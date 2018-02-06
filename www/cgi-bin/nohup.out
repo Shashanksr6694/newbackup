@@ -1,0 +1,5 @@
+1499280435860	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+1499280436069	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+1499280436088	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+1499280436106	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+1499280436138	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property

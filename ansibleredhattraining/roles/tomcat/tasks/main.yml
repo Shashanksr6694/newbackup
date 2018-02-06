@@ -1,0 +1,24 @@
+---
+- name: Deploy Tomcat
+- name: install tomcat
+  yum:
+    name: tomcat
+    state: latest
+
+- name: start and enable tomcat service
+  service:
+    name: tomcat
+    state: started
+    enabled: yes
+
+- name: create tomcat directory
+  file:
+    path: /usr/share/tomcat/webapps/ROOT
+    state: directory
+
+- name: generate template file
+  template:
+    src: index.html.j2
+    dest: /usr/share/tomcat/webapps/ROOT/index.html
+    mode: 0644
+  notify: restart tomcat

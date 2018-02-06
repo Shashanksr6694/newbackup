@@ -1,0 +1,10 @@
+---
+# handlers file for 3tierapp
+
+- name: restart HAproxy
+  service:
+    name: haproxy
+    state: restarted
+
+
+
